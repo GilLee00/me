@@ -1,0 +1,19 @@
+<!dochtml>
+<html>
+<title>JW 링트 전송용 사이트</title>
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+</head>
+<body>
+<h1>JW 링크 전송하기<br>
+
+   <a id="kakao-link-btn">
+     <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="195" height="195" style="max-width: 500%; height: auto;"> 
+   </a> 전송버튼</h1>
+	<script type='text/javascript'> 
+  	  Kakao.init('3abe4215def740d9fd441a5a146d7c71');
+	  Kakao.Link.createCustomButton({container: '#kakao-link-btn', templateId: 71301,});
+	</script>
+</body>
+</html>
